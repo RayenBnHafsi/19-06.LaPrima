@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaPrima</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- logo img -->
+    <link 
+        rel="icon" 
+        type="image/png" 
+        sizes="32x32" 
+        href="img/logo1.png"
+        style="border-radius: 50%;"
+    >
+    <!-- fontawsomcdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+
+<!-- header section Starts -->
+    <section class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-pizza-slice"></i>LaPrima</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#food">Pizza</a>
+            <a href="#gallery">gallery</a>
+            <a href="#Plats">Plates</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+
+    <!-- home design -->
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background: url(img/pizza.pik.jpg) no-repeat;">
+                <div class="content">
+                    <span>LaPrima</span>
+                    <h3>pizza</h3>
+                    <a href="tel:27-015-015" class="btn">passez votre commande</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(img/boisson.pik.jpg) no-repeat;">
+                <div class="content">
+                    <span>LaPrima</span>
+                    <h3>boisson</h3>
+                    <a href="tel:27-015-015" class="btn">passez votre commande</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(img/sandwich.pik.jpg) no-repeat;">
+                <div class="content">
+                    <span>LaPrima</span>
+                    <h3>sandwich</h3>
+                    <a href="tel:27-015-015" class="btn">passez votre commande</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+</section>
+
+
+<!-- Pizza . FOOD SECTION: -->
+<section class="food" id="food">
+    <div class="heading">
+        <span>populaire</span>
+        <h3>Pizza</h3>
+    </div>
+
+    <div class="swiper food-slider">
+        <div class="swiper-wrapper">
+            <!-- 1 -->
+            <div class="swiper-slide slide" data-name="food-1">
+                <img src="img/neptune.jpg" alt="">
+                <h3>nerpture</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 2 -->
+            <div class="swiper-slide slide" data-name="food-2">
+                <img src="img/margriheriata.jpg" alt="">
+                <h3>margheriata</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 3 -->
+            <div class="swiper-slide slide" data-name="food-3">
+                <img src="img/fruits de mer.jpg" alt="">
+                <h3>fruits de mer</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 4 -->
+            <div class="swiper-slide slide" data-name="food-4">
+                <img src="img/chichen.jpg" alt="">
+                <h3>chicken</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 5 -->
+            <div class="swiper-slide slide" data-name="food-5">
+                <img src="img/vegetarienne.jpg" alt="">
+                <h3>vegetarienne</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 6 -->
+            <div class="swiper-slide slide" data-name="food-6">
+                <img src="img/peperoni.jpg" alt="">
+                <h3>delicious food</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 7 -->
+            <div class="swiper-slide slide" data-name="food-7">
+                <img src="img/special.jpg" alt="">
+                <h3>special</h3>
+                <div class="price">9.99d</div>
+            </div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+</section>
+
+<!-- food preview section starts -->
+<section class="food-preview-container">
+
+    <div id="close-preview" class="fas fa-times"></div>
+
+    <!-- 1 -->
+    <div class="food-preview" data-target="food-1">
+        <img src="img/neptune.jpg" alt="">
+        <head>delicious food</head>
+        <div class="start">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>
+            nous somme une pizzaria de tuise monfluri
+        </p>
+        <div class="price">44.6d</div>
+
+        <div class="price">buy now</div>
+    </div>
+    <!-- 2 -->
+    <div class="food-preview" data-target="food-2">
+        <img src="img/margriheriata.jpg" alt="">
+        <head>delicious food</head>
+        <div class="start">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam quo iure?
+        </p>
+        <div class="price">44.6d</div>
+        <div class="price">buy now</div>
+    </div>
+    <!-- 3 -->
+    <div class="food-preview" data-target="food-3">
+        <img src="img/fruits de mer.jpg" alt="">
+        <head>delicious food</head>
+        <div class="start">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam quo iure?
+        </p>
+        <div class="price">44.6d</div>
+        <div class="price">buy now</div>
+    </div>
+    <!-- 4 -->
+    <div class="food-preview" data-target="food-3">
+        <img src="img/chichen.jpg" alt="">
+        <head>delicious food</head>
+        <div class="start">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam quo iure?
+        </p>
+        <div class="price">44.6d</div>
+        <div class="price">buy now</div>
+    </div>
+    <!-- 5 -->
+    <div class="food-preview" data-target="food-3">
+        <img src="img/vegetarienne.jpg" alt="">
+        <head>delicious food</head>
+        <div class="start">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam quo iure?
+        </p>
+        <div class="price">44.6d</div>
+        <div class="price">buy now</div>
+    </div>
+    <!-- 6 -->
+    <div class="food-preview" data-target="food-3">
+        <img src="img/peperoni.jpg" alt="">
+        <head>delicious food</head>
+        <div class="start">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam quo iure?
+        </p>
+        <div class="price">44.6d</div>
+        <div class="price">buy now</div>
+    </div>
+    <!-- 7 -->
+    <div class="food-preview" data-target="food-3">
+        <img src="img/special.jpg" alt="">
+        <head>delicious food</head>
+        <div class="start">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam quo iure?
+        </p>
+        <div class="price">44.6d</div>
+        <div class="price">buy now</div>
+    </div>
+</section>
+
+
+<!-- gallery section:  -->
+<section class="gallery" id="gallery">
+    <div class="heading">
+        <h3>notre galerie</h3>
+    </div>
+    <div class="gallery-container">
+        <!-- 1 -->
+        <a href="tel:27-015-015" class="box">
+            <img src="img/gal1.jpg" alt="">
+            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+        </a>
+        <!-- 2 -->
+        <a href="tel:27-015-015" class="box">
+            <img src="img/gal2.jpg" alt="">
+            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+        </a>
+        <!-- 3 -->
+        <a href="tel:27-015-015" class="box">
+            <img src="img/gal4.jpg" alt="">
+            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+        </a>
+        <!-- 4 -->
+        <a href="tel:27-015-015" class="box">
+            <img src="img/gal5.jpg" alt="">
+            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+        </a>
+        <!-- 5 -->
+        <a href="tel:27-015-015" class="box">
+            <img src="img/gal6.jpg" alt="">
+            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+        </a>
+        <!-- 6 -->
+        <a href="tel:27-015-015" class="box">
+            <img src="img/gal3.jpg" alt="">
+            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+        </a>
+    </div>
+</section>
+
+
+
+
+<!-- PLAT : FOOD SECTION: -->
+<section class="food" id="Plats">
+    <div class="heading">
+        <span>populaire</span>
+        <h3>Plats & Pates</h3>
+    </div>
+
+    <div class="swiper food-slider">
+        <div class="swiper-wrapper">
+            <!-- 1 -->
+            <div class="swiper-slide slide" data-name="food-1">
+                <img src="img/grilé.jpg" alt="">
+                <h3>Escalope grillé</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 2 -->
+            <div class="swiper-slide slide" data-name="food-2">
+                <img src="img/pannée.jpg" alt="">
+                <h3>Escalope pannée</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 3 -->
+            <div class="swiper-slide slide" data-name="food-3">
+                <img src="img/ejjasclpe.jpg" alt="">
+                <h3>Ejja escalope</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 4 -->
+            <div class="swiper-slide slide" data-name="food-4">
+                <img src="img/merges.jpg" alt="">
+                <h3>Ejja merguez</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 5 -->
+            <div class="swiper-slide slide" data-name="food-5">
+                <img src="img/spageti escalope.jpg" alt="">
+                <h3>Spaghetti escalope</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 6 -->
+            <div class="swiper-slide slide" data-name="food-6">
+                <img src="img/bologanise.jpg" alt="">
+                <h3>Spaghetti bolognaise</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 7 -->
+            <div class="swiper-slide slide" data-name="food-7">
+                <img src="img/thon1.jpg" alt="">
+                <h3>Spaghetti thon et formage</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 9 -->
+            <div class="swiper-slide slide" data-name="food-7">
+                <img src="img/complete.jpg" alt="">
+                <h3>Posson complet</h3>
+                <div class="price">9.99d</div>
+            </div>
+            <!-- 9 -->
+            <div class="swiper-slide slide" data-name="food-7">
+                <img src="img/thon.jpg" alt="">
+                <h3>Plat salade</h3>
+                <div class="price">9.99d</div>
+            </div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+</section>
+
+
+
+<!-- about design -->
+<section class="about" id="about">
+    <div class="image">
+        <img src="img/logo1.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3 class="title">Bienvenue à LaPrima</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime quasi voluptatibus iste inventore enim.</p>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="img/margriheriata.jpg" alt="">
+            </div>
+            <div class="icons">
+                <img src="img/merges.jpg" alt="">
+            </div>
+            <div class="icons">
+                <img src="img/boisson.pik.jpg" alt="">
+            </div>
+            <div class="icons">
+                <img src="img/fruits de mer.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END AbouT -->
+
+
+<!-- footer section : -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>
+                Copyight &copy; 2023 by <span class="multiple-Text" style="color: #333;">
+                    <a href="">Rayen Hafsi</a>
+                </span> | All Rights Reseved.
+            </p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- link-light-js:  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <!-- js file -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
